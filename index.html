@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+
+<body>
+  <!-- Start of <header> || Includes main nav links -->
+    <header>
+      <div class="menu-mobile"></div>
+      <nav id="navigation" class="main-nav main-nav-desktop">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects" aria-hidden="true">Projects</a>
+        <a id="contact" class="tiny-triangle contact-desktop" href="#contact">Contact</a>
+      </nav>
+      <h1>We are creatives</h1>
+    </header>
+    <!-- End of </header> -->
+
+  <main>
+    <!-- Start of first <section> -->
+    <section id="about" class="about-section">
+      <div class="about-img-1"></div>
+      <div class="about-section-div1">
+        <h2>Transform your brand</h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      
+      <div class="about-img-2"></div>
+      <div class="about-section-div2">
+        <h2>Stand out to the right audience</h2>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers,
+          and copywriters, we’ll build and extend your brand in digital places.
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+    </section>
+    <!-- End of first </section> -->
+
+    <!-- Start of second <secion> -->
+    <section id="services" class="services-section">
+      <div class="services-section-div1">
+        <h2>Graphic design</h2>
+        <p>
+          Great design makes you memorable. We deliver artwork that underscores your brand message
+          and captures potential clients’ attention.
+        </p>
+      </div>
+
+      <div class="services-section-div2">
+        <h2>Photography</h2>
+        <p>
+          Increase your credibility by getting the most stunning, high-quality photos that improve
+          your business image.
+        </p>
+      </div>
+    </section>
+    <!-- End of second </section> -->
+
+    <!-- Start of third <secion> || Includes Testimonials -->
+    <section class="testimonials-section">
+      <h5>Client testimonials</h5>
+
+      <div class="parent-div-testimonials">
+        <div class="testimonials testdiv1">
+          <img src="images/image-emily.jpg" width="90" height="90" alt="Emily. White female, late 20's. Fake blond with orange tops">
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our needs were met
+            and deadlines were always hit.
+          </p>
+          <strong class="name">Emily R.</strong>
+          <small class="occupation">Marketing Director</small>
+        </div>
+
+        <div class="testimonials testdiv2">
+          <img src="images/image-thomas.jpg" width="90" height="90" alt="Thomas. Brown male, early 30's. Black hair, very light beard. white T-shirt">
+          <p>
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success
+            made it a satisfying and enjoyable experience.
+          </p>
+          <strong class="name">Thomas S.</strong>
+          <small class="occupation">Chief Operating Officer</small>
+        </div>
+        
+        <div class="testimonials testdiv3">
+          <img src="images/image-jennie.jpg" width="90" height="90" alt="Jennie. White female, late 30's. Short black hair, black V-top">
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside.
+            Highly recommended!
+          </p>
+          <strong class="name">Jennie F.</strong>
+          <small class="occupation">Business Owner</small>
+        </div>
+      </div>
+
+    </section>
+    <!-- End of third </secion> -->
+
+    <!-- Start of fourth </secion> -->
+    <section id="projects" class="projects-section" aria-hidden="true">
+      <h5 class="hidden">Our Work</h5>
+
+      <div class="projects-div">
+        <div class="img1 img-services"></div>
+        <div class="img2 img-services"></div>
+        <div class="img3 img-services"></div>
+        <div class="img4 img-services"></div>
+      </div>
+
+    </section>
+    <!-- End of fourth </secion> -->
+  </main>
+
+  <!-- Start of <footer> -->
+  <footer class="main-footer">
+
+    <div class="footer-nav-wrapper">
+      <nav class="footer-nav-local">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <nav class="footer-nav-foreign">
+        <a href="facebook.com" target="_blank" aria-label="facebook.com"><img src="images/icon-facebook.svg" alt="facebook"></a>
+        <a href="instagram.com" target="_blank" aria-label="instagram.com"><img src="images/icon-instagram.svg" alt="instagram"></a>
+        <a href="twitter.com" target="_blank" aria-label="twitter.com"><img src="images/icon-twitter.svg" alt="twitter"></a>
+        <a href="pinterest.com" target="_blank" aria-label="pinterest.com"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+      </nav>
+    </div>
+    <a id="top" href="#" class="top">Back to Top &#8593;</a>
+
+  </footer>
+  <!-- End of </footer> -->
+  
+  <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
